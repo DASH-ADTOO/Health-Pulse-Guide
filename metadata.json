@@ -1,0 +1,8 @@
+{
+  "name": "Remix HealthPulse Guide",
+  "description": "Interactive health, allergy, and seasonal wellness guide for parents and youth with age, season, and concern recommendations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
