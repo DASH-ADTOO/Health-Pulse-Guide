@@ -3,6 +3,7 @@ import { AgeGroupId, SeasonId, FamilyProfile } from '../types';
 import { getLocalizedSeasons, getLocalizedPresets } from '../data/articles';
 import { ShieldCheck, Sparkles, Users } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
+import heroImg from '../assets/images/hero_healthpulse_1793205877436.jpg';
 
 interface HeroBannerProps {
   selectedSeason: SeasonId;
@@ -89,7 +90,7 @@ export const HeroBanner: React.FC<HeroBannerProps> = ({
           <div className="lg:col-span-5">
             <div className="relative rounded-2xl overflow-hidden shadow-sm border border-slate-200 bg-white">
               <img
-                src="/src/assets/images/hero_healthpulse_1793205877436.jpg"
+                src={heroImg}
                 alt="Pediatrician consulting with caring mother and child in modern sunlit clinic"
                 className="w-full h-56 sm:h-64 lg:h-72 object-cover object-center"
                 referrerPolicy="no-referrer"

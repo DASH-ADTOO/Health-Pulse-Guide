@@ -14,6 +14,15 @@ import {
   FamilyProfile,
 } from '../types';
 
+import imgSpringAllergies from '../assets/images/article_spring_allergies_1793205877764.jpg';
+import imgSummerHydration from '../assets/images/article_summer_hydration_1793205879655.jpg';
+import imgWinterSkincare from '../assets/images/article_winter_skincare_1793205878530.jpg';
+import imgHeroHealthpulse from '../assets/images/hero_healthpulse_1793205877436.jpg';
+import imgAsthmaLungs from '../assets/images/article_asthma_lungs_1793207984351.jpg';
+import imgFoodAllergyDining from '../assets/images/article_food_allergy_dining_1793207984301.jpg';
+import imgFluImmunity from '../assets/images/article_flu_immunity_1793207983004.jpg';
+import imgMatureWellness from '../assets/images/article_mature_wellness_1793207983675.jpg';
+
 export const AGE_GROUPS: AgeGroupInfo[] = [
   {
     id: '5-9',
@@ -557,7 +566,7 @@ export const ARTICLES: Article[] = [
       institution: 'Children\'s Health Center',
       verifiedYear: 2026,
     },
-    image: '/src/assets/images/article_spring_allergies_1793205877764.jpg',
+    image: imgSpringAllergies,
     summary: 'When trees release microscopic pollen clouds in early spring, young lungs and nasal passages are on the frontline. Learn how to configure a morning anti-histamine schedule, school bus precautions, and evening hair rinses to reduce symptoms by up to 70%.',
     keyTakeaways: [
       'Pollen clings to hair, clothing, and backpacks; wash hair before bedtime to avoid depositing pollen on pillows.',
@@ -612,7 +621,7 @@ export const ARTICLES: Article[] = [
       institution: 'Metropolitan Youth Sports Institute',
       verifiedYear: 2026,
     },
-    image: '/src/assets/images/article_summer_hydration_1793205879655.jpg',
+    image: imgSummerHydration,
     summary: 'Teen athletes sweat at rates comparable to collegiate players, yet their thirst sensation lags significantly behind cellular dehydration. Here is the exact fluid formula, sodium replacement ratio, and heat acclimatization timeline required for summer sports camps.',
     keyTakeaways: [
       'Thirst is a lagging indicator: by the time a teen feels thirsty, they are already 1.5% to 2% dehydrated.',
@@ -663,7 +672,7 @@ export const ARTICLES: Article[] = [
       institution: 'University Pediatric Dermatology Clinic',
       verifiedYear: 2026,
     },
-    image: '/src/assets/images/article_winter_skincare_1793205878530.jpg',
+    image: imgWinterSkincare,
     summary: 'When winter temperatures plummet, outdoor humidity drops and indoor radiators strip ambient moisture. For children and adults with atopic dermatitis, this cracks the delicate lipid stratum corneum. Discover the evidence-backed Soak-and-Seal method to end the scratch-itch cycle.',
     keyTakeaways: [
       'Bathing should be brief (5–10 minutes) in lukewarm water, never steaming hot water which strips lipids.',
@@ -713,7 +722,7 @@ export const ARTICLES: Article[] = [
       institution: 'Children\'s Health Center',
       verifiedYear: 2026,
     },
-    image: '/src/assets/images/hero_healthpulse_1793205877436.jpg',
+    image: imgHeroHealthpulse,
     summary: 'A barking seal-like cough at 2:00 AM strikes fear into every parent. This pediatric triage guide breaks down distinct cough signatures, explains how to assess work of breathing, and details when cool mist vs steam is medically appropriate.',
     keyTakeaways: [
       'A barking, seal-like cough usually indicates croup (swelling in the upper trachea), worsened by dry night air.',
@@ -763,7 +772,7 @@ export const ARTICLES: Article[] = [
       institution: 'Youth Wellness Alliance',
       verifiedYear: 2026,
     },
-    image: '/src/assets/images/article_spring_allergies_1793205877764.jpg',
+    image: imgSpringAllergies,
     summary: 'The transition from elementary allergen-free tables to middle school cafeterias is an anxiety peak. This guide empowers 10–14 year olds with scripts to decline shared snacks, wipe lunch surfaces, and practice self-administering auto-injectors.',
     keyTakeaways: [
       'Roleplaying cafeteria scenarios reduces peer pressure to accept unlabeled homemade treats.',
@@ -812,7 +821,7 @@ export const ARTICLES: Article[] = [
       institution: 'Children\'s Health Center',
       verifiedYear: 2026,
     },
-    image: '/src/assets/images/hero_healthpulse_1793205877436.jpg',
+    image: imgHeroHealthpulse,
     summary: 'As windows close and heating cycles begin in rainy autumn months, classroom viral transmission spikes exponentially. Learn the nutritional foundations of mucosal barrier defense and how to tell influenza from the common cold.',
     keyTakeaways: [
       '9 hours of uninterrupted sleep restores T-cell function critical for neutralizing rhinoviruses.',
@@ -860,7 +869,7 @@ export const ARTICLES: Article[] = [
       institution: 'Metropolitan Youth Sports Institute',
       verifiedYear: 2026,
     },
-    image: '/src/assets/images/article_summer_hydration_1793205879655.jpg',
+    image: imgSummerHydration,
     summary: 'Late teens face a unique hormonal phase delay that makes falling asleep before 11 PM difficult. Combined with rigorous testing and caffeine overconsumption, cortisol spikes deplete natural killer cells right before major exams.',
     keyTakeaways: [
       'Caffeine after 3:00 PM blocks adenosine receptors, destroying restorative deep slow-wave sleep.',
@@ -908,7 +917,7 @@ export const ARTICLES: Article[] = [
       institution: 'Youth Wellness Alliance',
       verifiedYear: 2026,
     },
-    image: '/src/assets/images/article_winter_skincare_1793205878530.jpg',
+    image: imgWinterSkincare,
     summary: 'Over 80% of children and adults with chronic allergic rhinitis react to microscopic indoor dust mite feces and pet dander. Discover which cleaning interventions actually make a clinical difference and which commercial products are marketing gimmicks.',
     keyTakeaways: [
       'Dust mite allergen encasements on mattresses and pillows reduce nighttime exposure by over 90%.',
@@ -956,7 +965,7 @@ export const ARTICLES: Article[] = [
       institution: 'Youth Wellness Alliance',
       verifiedYear: 2026,
     },
-    image: '/src/assets/images/article_spring_allergies_1793205877764.jpg',
+    image: imgSpringAllergies,
     summary: 'Moving into a university residence hall exposes young adults to decades of accumulated dust mites, high-humidity communal bathrooms, and unfamiliar dining options. Here is how college students can register medical housing accommodations and eat safely.',
     keyTakeaways: [
       'Register for dietary accommodations under the Americans with Disabilities Act (ADA) with campus dining before move-in.',
@@ -1006,7 +1015,7 @@ export const ARTICLES: Article[] = [
       institution: 'Metropolitan Youth Sports Institute',
       verifiedYear: 2026,
     },
-    image: '/src/assets/images/article_summer_hydration_1793205879655.jpg',
+    image: imgSummerHydration,
     summary: 'Intense physical conditioning in warm weather depletes plasma volume rapidly. Learn how young adults can balance sodium-to-potassium ratios, avoid hyponatremia from over-drinking plain water, and support muscle recovery.',
     keyTakeaways: [
       'Drinking gallons of distilled or plain filtered water without electrolytes during heavy sweat sessions can cause dangerous cellular swelling.',
@@ -1054,7 +1063,7 @@ export const ARTICLES: Article[] = [
       institution: 'Children\'s Health Center',
       verifiedYear: 2026,
     },
-    image: '/src/assets/images/hero_healthpulse_1793205877436.jpg',
+    image: imgHeroHealthpulse,
     summary: 'It is medically normal for infants and toddlers in daycare to experience 8 to 12 viral infections in their first year. Here is how 26–35 year old parents can manage pediatric fevers calmly, prevent adult cross-infection, and know when ear tugging warrants a doctor visit.',
     keyTakeaways: [
       'Fevers are a healthy immune mechanism that slows viral replication; treat the child’s comfort rather than the thermometer number.',
@@ -1104,7 +1113,7 @@ export const ARTICLES: Article[] = [
       institution: 'Youth Wellness Alliance',
       verifiedYear: 2026,
     },
-    image: '/src/assets/images/article_spring_allergies_1793205877764.jpg',
+    image: imgSpringAllergies,
     summary: 'Moving cities or experiencing prolonged career stress can trigger brand new pollen or pet dander allergies in your late twenties and early thirties. Discover how immune tolerance shifts with age and how to restore daytime mental clarity.',
     keyTakeaways: [
       'It takes an average of 2–3 seasonal cycles in a new geographic climate for your body to synthesize IgE antibodies against local tree pollen.',
@@ -1152,7 +1161,7 @@ export const ARTICLES: Article[] = [
       institution: 'Children\'s Health Center',
       verifiedYear: 2026,
     },
-    image: '/src/assets/images/article_winter_skincare_1793205878530.jpg',
+    image: imgWinterSkincare,
     summary: 'Parents aged 36–44 often juggle their school-aged children’s sports asthma alongside their own aging parents’ delicate respiratory health. This home environmental audit delivers maximum protection for every generation under one roof.',
     keyTakeaways: [
       'Both growing lungs and older bronchial airways are hypersensitive to fine particulate matter (PM2.5) and indoor combustion fumes.',
@@ -1200,7 +1209,7 @@ export const ARTICLES: Article[] = [
       institution: 'University Pediatric Dermatology Clinic',
       verifiedYear: 2026,
     },
-    image: '/src/assets/images/article_winter_skincare_1793205878530.jpg',
+    image: imgWinterSkincare,
     summary: 'Repetitive handwashing at work, preparing family meals, and handling harsh cleaning detergents strips the lipid mortar between skin cells. Here is how mid-career adults can heal deep, painful finger fissures and stop nighttime itching.',
     keyTakeaways: [
       'Wear cotton-lined rubber gloves for all dishwashing and bathroom cleaning chores.',
@@ -1248,7 +1257,7 @@ export const ARTICLES: Article[] = [
       institution: 'Metropolitan Youth Sports Institute',
       verifiedYear: 2026,
     },
-    image: '/src/assets/images/hero_healthpulse_1793205877436.jpg',
+    image: imgHeroHealthpulse,
     summary: 'As lungs mature, the elastic recoil of bronchial tissue gradually decreases. Cold winter air acts as a powerful physical trigger that causes sudden airway constriction during brisk morning walks. Learn how to condition your lungs and exercise outdoors safely.',
     keyTakeaways: [
       'Breathing sub-freezing air through a loose knit scarf or thermal mask raises air temperature by up to 20°F before it hits vocal cords.',
@@ -1297,7 +1306,7 @@ export const ARTICLES: Article[] = [
       institution: 'University Pediatric Dermatology Clinic',
       verifiedYear: 2026,
     },
-    image: '/src/assets/images/article_winter_skincare_1793205878530.jpg',
+    image: imgWinterSkincare,
     summary: 'After age 50, epidermal sebum production declines by nearly 50%, leading to winter "Asteatotic Eczema" or "Winter Itch" on the shins, arms, and back. Discover the exact lipid replacement creams and non-soap bathing regimens to prevent severe scratching.',
     keyTakeaways: [
       'Steaming hot showers provide temporary pleasure but severely dissolve the few natural lipids mature skin retains.',
@@ -1346,7 +1355,7 @@ export const ARTICLES: Article[] = [
       institution: 'University Pediatric Dermatology Clinic',
       verifiedYear: 2026,
     },
-    image: '/src/assets/images/article_summer_hydration_1793205879655.jpg',
+    image: imgSummerHydration,
     summary: 'When energetic 5–9 year olds run around in summer playgrounds, small sweat ducts easily clog, causing tiny prickling red bumps (miliaria rubra). Learn how to differentiate heat rash from allergic hives and soothe summer skin quickly.',
     keyTakeaways: [
       'Heat rash resolves best with cool airflow and dry skin; do NOT apply heavy greasy ointments over heat rash.',
@@ -1394,7 +1403,7 @@ export const ARTICLES: Article[] = [
       institution: 'Metropolitan Youth Sports Institute',
       verifiedYear: 2026,
     },
-    image: '/src/assets/images/article_summer_hydration_1793205879655.jpg',
+    image: imgSummerHydration,
     summary: 'Many middle school athletes feel embarrassed when coughing sets in 10 minutes into a soccer scrimmage. Discover how taking 2 puffs of albuterol through a spacer before warm-ups keeps airways wide open and allows full athletic participation.',
     keyTakeaways: [
       'Taking bronchodilators 15 minutes before exertion prevents airway narrowing for up to 3 hours.',
@@ -1442,7 +1451,7 @@ export const ARTICLES: Article[] = [
       institution: 'Youth Wellness Alliance',
       verifiedYear: 2026,
     },
-    image: '/src/assets/images/article_spring_allergies_1793205877764.jpg',
+    image: imgSpringAllergies,
     summary: 'High schoolers frequently face peer pressure to eat at unfamiliar restaurants or attend parties where allergen cross-contamination is high. This guide provides scripts for ordering, explains kissing cross-contact risks, and reinforces carrying two auto-injectors.',
     keyTakeaways: [
       'Partners who have eaten peanuts or tree nuts can transfer allergens via saliva for up to 4 hours; waiting and brushing teeth is essential.',
@@ -1490,7 +1499,7 @@ export const ARTICLES: Article[] = [
       institution: 'Metropolitan Youth Sports Institute',
       verifiedYear: 2026,
     },
-    image: '/src/assets/images/hero_healthpulse_1793205877436.jpg',
+    image: imgHeroHealthpulse,
     summary: 'After recovering from influenza, mono, or COVID-19, young adults often attempt to resume intense workouts too quickly, triggering weeks of chronic exhaustion. Learn the graded return-to-activity protocol and nutritional rebuilding plan.',
     keyTakeaways: [
       'Post-viral bronchial hyper-reactivity can cause a dry, nagging cough for up to 6 weeks after viral clearance.',
@@ -1538,7 +1547,7 @@ export const ARTICLES: Article[] = [
       institution: 'University Pediatric Dermatology Clinic',
       verifiedYear: 2026,
     },
-    image: '/src/assets/images/article_winter_skincare_1793205878530.jpg',
+    image: imgWinterSkincare,
     summary: 'Many new parents fear using prescribed hydrocortisone on their infant’s red cheeks and skin folds. This guide clears up medical misconceptions, explains the Finger Tip Unit (FTU) dosing standard, and provides a gentle tapering schedule.',
     keyTakeaways: [
       'Under-treating eczema allows chronic inflammation to damage the skin barrier, increasing the risk of allergic sensitization.',
@@ -1586,7 +1595,7 @@ export const ARTICLES: Article[] = [
       institution: 'Children\'s Health Center',
       verifiedYear: 2026,
     },
-    image: '/src/assets/images/article_spring_allergies_1793205877764.jpg',
+    image: imgSpringAllergies,
     summary: 'Raking old autumn mulch and mowing damp spring lawns releases massive concentrations of Alternaria mold spores and grass allergens. Discover how parents can landscape and garden safely without triggering severe bronchospasms.',
     keyTakeaways: [
       'Wear an N95 particulate respirator when mowing lawns or spreading wood mulch.',
@@ -1634,7 +1643,7 @@ export const ARTICLES: Article[] = [
       institution: 'Children\'s Health Center',
       verifiedYear: 2026,
     },
-    image: '/src/assets/images/hero_healthpulse_1793205877436.jpg',
+    image: imgHeroHealthpulse,
     summary: 'As the immune system matures (immunosenescence), antibody titers from standard vaccines can wane faster. This clinical guide explains optimal vaccination windows in early autumn, high-dose formulations, and how to stay healthy when grandchildren visit.',
     keyTakeaways: [
       'Receive seasonal flu shots in late September or October for peak antibody coverage across winter waves.',
@@ -1682,7 +1691,7 @@ export const ARTICLES: Article[] = [
       institution: 'Metropolitan Youth Sports Institute',
       verifiedYear: 2026,
     },
-    image: '/src/assets/images/article_summer_hydration_1793205879655.jpg',
+    image: imgSummerHydration,
     summary: 'Many mature adults take blood pressure medications (ACE inhibitors, beta-blockers) or diuretics that alter sweat rates and blunt thirst sensation. Discover how to exercise outdoors, walk in the park, and stay safely hydrated in high summer heat.',
     keyTakeaways: [
       'Beta-blockers reduce blood flow to the skin, limiting the body\'s natural heat dissipation mechanism.',
@@ -1730,7 +1739,7 @@ export const ARTICLES: Article[] = [
       institution: 'Children\'s Health Center',
       verifiedYear: 2026,
     },
-    image: '/src/assets/images/article_asthma_lungs_1793207984351.jpg',
+    image: imgAsthmaLungs,
     summary: 'Grass pollen spikes in late spring and early summer when lawn mowers and athletic turf churn microscopic fragments airborne. Discover how second-generation antihistamines combined with saline ocular rinses prevent sudden asthma bronchospasms.',
     keyTakeaways: [
       'Grass pollen is smaller than tree pollen and can penetrate deeper into secondary bronchioles.',
@@ -1778,7 +1787,7 @@ export const ARTICLES: Article[] = [
       institution: 'Youth Wellness Alliance',
       verifiedYear: 2026,
     },
-    image: '/src/assets/images/article_food_allergy_dining_1793207984301.jpg',
+    image: imgFoodAllergyDining,
     summary: 'Traveling during summer introduces unpredictable cross-contact risks at highway rest stops, seafood shacks, and vacation rentals. Learn how to secure airline medical pre-clearance, inspect hotel kitchenettes, and pack shelf-stable allergen-safe provisions.',
     keyTakeaways: [
       'Never pack epinephrine in checked luggage where freezing temperatures in cargo holds destroy medication potency.',
@@ -1826,7 +1835,7 @@ export const ARTICLES: Article[] = [
       institution: 'Children\'s Health Center',
       verifiedYear: 2026,
     },
-    image: '/src/assets/images/article_flu_immunity_1793207983004.jpg',
+    image: imgFluImmunity,
     summary: 'Cutting-edge immunological research reveals that 70% of mucosal defense against respiratory viruses is calibrated by the gut microbiome. Discover how prebiotic fibers, kefir, and fermented vegetables prime circulating dendritic cells before winter flu arrives.',
     keyTakeaways: [
       'Short-chain fatty acids (like butyrate) produced in the colon travel through the bloodstream to enhance alveolar macrophage antiviral defense.',
@@ -1874,7 +1883,7 @@ export const ARTICLES: Article[] = [
       institution: 'Children\'s Health Center',
       verifiedYear: 2026,
     },
-    image: '/src/assets/images/article_flu_immunity_1793207983004.jpg',
+    image: imgFluImmunity,
     summary: 'When school-age siblings bring home respiratory viruses in December, infants and toddlers face elevated risk of bronchiolitis and bronchiolar swelling. Learn the clinical triage protocol, nasal clearing techniques, and when to seek hospital evaluation.',
     keyTakeaways: [
       'RSV symptoms typically peak on days 4 and 5 of illness; do not let your guard down on day 2.',
@@ -1922,7 +1931,7 @@ export const ARTICLES: Article[] = [
       institution: 'Metropolitan Youth Sports Institute',
       verifiedYear: 2026,
     },
-    image: '/src/assets/images/article_summer_hydration_1793205879655.jpg',
+    image: imgSummerHydration,
     summary: 'After experiencing mild heat exhaustion (nausea, dizziness, heavy sweating, muscle cramps), returning to high heat too quickly can precipitate life-threatening heatstroke. Follow this mandatory 24-hour physiological restoration timeline.',
     keyTakeaways: [
       'Rest in air-conditioned shelter (<72°F) for at least 24 hours following heat exhaustion.',
@@ -1970,7 +1979,7 @@ export const ARTICLES: Article[] = [
       institution: 'Youth Wellness Alliance',
       verifiedYear: 2026,
     },
-    image: '/src/assets/images/article_spring_allergies_1793205877764.jpg',
+    image: imgSpringAllergies,
     summary: 'After months of winter lockdown, everyone wants to fling open windows to fresh spring air. For families with asthma and allergies, this lets billions of pollen particles settle into sofa cushions and mattresses. Here is the safe ventilation protocol.',
     keyTakeaways: [
       'Only open windows after 8:00 PM or during steady rainfall when atmospheric pollen is washed out.',
@@ -2018,7 +2027,7 @@ export const ARTICLES: Article[] = [
       institution: 'Children\'s Health Center',
       verifiedYear: 2026,
     },
-    image: '/src/assets/images/article_asthma_lungs_1793207984351.jpg',
+    image: imgAsthmaLungs,
     summary: 'Prolonged autumn rainstorms and monsoon humidity drive relative indoor humidity over 60%, creating prime breeding grounds for indoor mold colonies. Learn how fungal beta-glucans inflame bronchial passages and how to keep indoor air crisp and safe.',
     keyTakeaways: [
       'Maintain indoor relative humidity between 35% and 50% using compressor dehumidifiers in basements and bedrooms.',
@@ -2066,7 +2075,7 @@ export const ARTICLES: Article[] = [
       institution: 'University Pediatric Dermatology Clinic',
       verifiedYear: 2026,
     },
-    image: '/src/assets/images/article_winter_skincare_1793205878530.jpg',
+    image: imgWinterSkincare,
     summary: 'Sub-zero outdoor air and forced-air radiators strip the delicate mucosal lining of the nasal septum, causing fragile capillaries to crack and bleed. Learn the correct forward-lean pinching method and how to lubricate nasal passages before bed.',
     keyTakeaways: [
       'Never tilt the head backward during a nosebleed; this causes blood to drain down the throat, triggering coughing and nausea.',
@@ -2114,7 +2123,7 @@ export const ARTICLES: Article[] = [
       institution: 'Metropolitan Youth Sports Institute',
       verifiedYear: 2026,
     },
-    image: '/src/assets/images/article_mature_wellness_1793207983675.jpg',
+    image: imgMatureWellness,
     summary: 'Dehydration does not just happen under direct summer sunlight—winter sports and rainy-day indoor training cause heavy fluid loss through respiration and perspiration. Master the scientific hydration formula for peak athletic output.',
     keyTakeaways: [
       'In cold winter sports, athletes lose up to 1 liter of moisture per hour simply through rapid vapor exhalation in cold dry air.',
@@ -2162,7 +2171,7 @@ export const ARTICLES: Article[] = [
       institution: 'Children\'s Health Center',
       verifiedYear: 2026,
     },
-    image: '/src/assets/images/article_mature_wellness_1793207983675.jpg',
+    image: imgMatureWellness,
     summary: 'When winter daylight hours shrink, circadian rhythms slip, causing daytime fatigue, carbohydrate cravings, and reduced immune surveillance against respiratory viruses. Learn how to calibrate morning lux exposure and maintain optimal Vitamin D3 levels.',
     keyTakeaways: [
       'Between November and March above 37° latitude, the sun angle is too low for the human skin to synthesize Vitamin D.',
@@ -2210,7 +2219,7 @@ export const ARTICLES: Article[] = [
       institution: 'Children\'s Health Center',
       verifiedYear: 2026,
     },
-    image: '/src/assets/images/article_flu_immunity_1793207983004.jpg',
+    image: imgFluImmunity,
     summary: 'Sending a child back to school too soon after a viral fever risks secondary bacterial infections and restarts classroom transmission chains. Discover the clinical 24-hour unmedicated fever clearance rule and how to assess energy reserves.',
     keyTakeaways: [
       'A child must be fever-free for a full 24 hours without using acetaminophen or ibuprofen before returning to school.',
@@ -2258,7 +2267,7 @@ export const ARTICLES: Article[] = [
       institution: 'Youth Wellness Alliance',
       verifiedYear: 2026,
     },
-    image: '/src/assets/images/article_food_allergy_dining_1793207984301.jpg',
+    image: imgFoodAllergyDining,
     summary: 'What we feed growing bodies directly influences systemic inflammatory pathways in the lungs and dermis. Learn how quercetin (found in red onions and apples) naturally stabilizes mast cells, while marine omega-3s dial down eczema and asthma flares.',
     keyTakeaways: [
       'Quercetin is a natural bioflavonoid that prevents mast cells from dumping histamine into the bloodstream.',
@@ -2310,7 +2319,7 @@ export const ARTICLES: Article[] = [
       institution: 'Youth Wellness Alliance',
       verifiedYear: 2026,
     },
-    image: '/src/assets/images/article_food_allergy_dining_1793207984301.jpg',
+    image: imgFoodAllergyDining,
     summary: 'A well-planned vegetarian or plant-forward lifestyle offers potent antioxidant and polyphenol protection against viral infections. Learn how to soak lentils to neutralize phytates, optimize non-heme iron absorption with lemon juice, and boost cellular zinc levels.',
     keyTakeaways: [
       'Soaking lentils, chickpeas, and beans for 12 hours breaks down phytic acid, increasing zinc and iron bioavailability by up to 50%.',
@@ -2362,7 +2371,7 @@ export const ARTICLES: Article[] = [
       institution: 'Metropolitan Youth Sports Institute',
       verifiedYear: 2026,
     },
-    image: '/src/assets/images/article_flu_immunity_1793207983004.jpg',
+    image: imgFluImmunity,
     summary: 'Animal-based whole foods supply pre-formed Vitamin A (retinol), highly bioavailable heme iron, and direct EPA/DHA omega-3s. Discover how traditional slow-simmered chicken and beef bone broths seal leaky mucosal barriers and accelerate post-viral recovery.',
     keyTakeaways: [
       'Gelatin and glycine extracted from slow-cooked bone broth rebuild the intestinal epithelial barrier, reducing systemic allergic flares.',
